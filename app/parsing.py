@@ -36,7 +36,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Saving the DataFrame to a CSV file
-csv_path = "/home/prince/Dropbox/question_answering/docs/passage_metadata.csv"
+csv_path = "/home/prince/Dropbox/Question-Answering-System/docs/passage_metadata.csv"
 df.to_csv(csv_path, index=False)
 
 #Loading the passage_metadata dataframe
