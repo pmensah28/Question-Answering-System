@@ -18,3 +18,5 @@ df['Embedding'] = embeddings.tolist()
 
 # Save the updated DataFrame to a new CSV file
 df.to_csv('/home/prince/Dropbox/Question-Answering-System/docs/passage_metadata_emb.csv', index=False)
+
+print("Embeddings generated successfully and saved to passage_metadata_emb.csv.")
