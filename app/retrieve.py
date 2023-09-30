@@ -48,7 +48,7 @@ model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 index_name = "passages"
 
 # Example questions
-questions = ["What is the legal procedure for divorce?", "How to file a patent?"]
+questions = ["What is a valid offer?", "What case defines what an offer is?"] # Just randomly chose two question from the Example excel file provided in the drive folder
 
 # Retrieve relevant passages and save to CSV
 data = []
@@ -68,5 +68,5 @@ for question in questions:
 # Create a DataFrame and save to CSV
 df = pd.DataFrame(data)
 df.to_csv("/home/prince/Dropbox/Question-Answering-System/docs/questions_answers.csv", index=False)
-print("Successfully implemented a retrieval mechanism using ElasticSearch.")
+print("Successfully implemented elasticsearch integration and document retrieval")
 print("Results saved to questions_answers.csv.")
