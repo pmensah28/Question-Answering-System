@@ -67,3 +67,5 @@ Access the Streamlit interface at:
 
 ```bash
 http://localhost:8501
+````
+Detailed design and implementation insights are in the `technical.pdf` in the `docs/` directory.

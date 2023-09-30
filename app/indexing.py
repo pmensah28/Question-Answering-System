@@ -23,7 +23,7 @@ actions = [
         "_source": {
             "passage": row['Passage'],
             "metadata": json.loads(row['Metadata']),
-            "embedding": row['Embedding'][1:-1].split(', ')  # Convert string representation of list to actual list
+            "embedding": row['Embedding'][1:-1].split(', ')
         }
     }
     for _, row in df.iterrows()

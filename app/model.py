@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import pandas as pd
 
 # Loading the the CSV file
-csv_file = '/home/prince/Dropbox/Question-Answering-System/docs/passage_metadata.csv' # Replace with the actual path
+csv_file = '/home/prince/Dropbox/Question-Answering-System/docs/passage_metadata.csv'
 df = pd.read_csv(csv_file)
 
 # Load the SentenceTransformer model
