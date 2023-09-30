@@ -1,16 +1,3 @@
-# Question Answering System
-
-This QA system retrieves relevant passages from a corpus to answer user queries, integrating SentenceTransformers, ElasticSearch, Docker, Flask, and Streamlit.
-
-## Getting Started
-
-### Clone the Repository
-
-```sh
-git clone <repo-link>
-cd <repo-directory>
-```
-
 # Question-Answering System
 
 ## Overview
