@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 # Connect to the ElasticSearch cluster
-# es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+es = Elasticsearch(["http://localhost:9200"])
 # Verify that the connection is established
 if es.ping():
     print("Connected to ElasticSearch.")
