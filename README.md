@@ -8,14 +8,14 @@ This is a Question-Answering (QA) system designed to efficiently retrieve releva
 
 - [Features](#features)
 - [System Requirements](#system-requirements)
-- [Setup and Installation](#setup-and-installation)
+- [Setup and Installation](#setup-and-instal) 
 - [Usage](#usage)
 
 ## Features
 
-- **Document Parsing:** Efficiently parses and processes legal documents, extracting relevant passages and metadata.
+- **Document Parsing:** Efficiently parsed and processed legal documents, extracting relevant passages and metadata.
 - **Embedding Generation:** Uses SentenceTransformers to generate embeddings for efficient and accurate retrieval.
-- **Elasticsearch Integration:** Indexes and retrieves embeddings using Elasticsearch for scalable and fast data handling.
+- **Elasticsearch Integration:** Indexed and retrieved embeddings using Elasticsearch for scalable and fast data handling.
 - **Flask API:** A well-structured API for interacting with the QA system, including endpoints for querying and document uploading.
 - **Streamlit Frontend:** A user-friendly interface for easy interaction with the QA system, built with Streamlit.
 
